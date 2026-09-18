@@ -1,0 +1,186 @@
+body {
+
+
+    min-height: 100vh;
+    background-image: url("phantom-arc.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+header 
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    border-radius: 20px;
+    width: 70%;
+    height: 15px;
+    width: 50%;
+    margin-left: 23%;
+}
+
+a
+{
+    color: #17294A;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.text 
+{
+    color: white;
+    margin-left: 32%;
+    margin-top: 5%;
+    font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; 
+    font-size:xx-large;
+
+}
+
+.text p
+{
+    font-size: 20px;
+    max-width: 700px;
+    color: white;
+    line-height: 1.6;
+    text-align: left;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+button
+{
+    width: 230px;
+    height: 80px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-left: 44%;
+    margin-top: 20px;
+    cursor:pointer;
+    animation-fill-mode: backwards;
+}
+
+
+.photos
+{
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    padding-top: 40px;
+}
+
+.photos img{
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    list-style: none;
+    padding: 0;
+    padding-top: 50px;
+}
+
+li {
+    text-align: center;
+    width: 500px;
+}
+
+li p
+{
+
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    color: #17294A;
+    height: 100px;
+    padding-top: 35px;
+    font-width: 30px;
+}
+
+ul { 
+    display: flex; 
+    justify-content: center;
+    gap: 110px;
+    list-style: none;
+    padding: 0;
+    margin-top: -80px;
+}
+
+.board
+{
+    background-color: white;
+    width: 90%;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.board img{
+
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    transform: translateY(-470px);
+    border-radius: 10px;
+
+}
+
+.board h1
+{
+    color: #17294A;
+    padding-top: 20px;
+    display: flex;
+    padding-left: 600px;
+    font-size: 40px;
+}
+
+.board p{
+
+    color: #17294A;
+    max-width: 900px;
+    max-height: 500px;
+    font-size: 20px;
+    padding-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.board button
+{
+    background-color: #17294A;
+    color: white;
+    position: relative;
+    bottom: -30px;
+    left: -50px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#about {
+    scroll-margin-top: 100px;
+}
+
+#pro
+{
+    scroll-margin-top: 100px;
+}
